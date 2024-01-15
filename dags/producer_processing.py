@@ -2,7 +2,7 @@ from airflow import DAG , Dataset
 from datetime import datetime
 from airflow.decorators import task
 
-myfile = Dataset("/tmp/landing/file_*.txt.done")
+myfile = Dataset("/tmp/file_1.txt.done")
 
 with DAG(
 
